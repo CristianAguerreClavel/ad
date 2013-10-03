@@ -18,6 +18,21 @@ namespace Serpis.Ad
 			return names;
 		}
 		
+		public static string getLine(MySqlDataReader mySqlDataReader){
+			int colum = mySqlDataReader.FieldCount;
+			string line = "";
+			
+			for(int i =0;i<colum;i++){
+				if(mySqlDataReader.GetValue(i) is DBNull){
+					line += "null"+"	 ";	
+				}else{
+					line += mySqlDataReader.GetValue(i)+"	 ";	
+				}
+			}
+			return line;
+		}
+		
+		
 		public static void Main (string[] args)
 		{
 			string connectionString ="Server=localhost;Database=dbprueba;user id=root;password=sistemas";
@@ -29,7 +44,6 @@ namespace Serpis.Ad
 			mySqlCommand.CommandText = "select * from articulo";
 			MySqlDataReader mySqlDataReader = mySqlCommand.ExecuteReader();
 			
-			int numColum = mySqlDataReader.FieldCount;
 			
 			//Visualizacion de las cabeceras
 			
@@ -44,19 +58,18 @@ namespace Serpis.Ad
 			
 			//Recorremos el datareader para visualizar los datos
 			while(mySqlDataReader.Read()) {
-				for(int i = 0; i < numColum;i++){
-				Console.Write (mySqlDataReader.GetValue(i));
-				Console.Write("     ");
-				}
-				Console.WriteLine();
+				string line ="";
+				line = getLine(mySqlDataReader);
+				Console.WriteLine(line);
 			}
 			
 			mySqlDataReader.Close();
 			mySqlConnection.Close();
 			//Console.WriteLine ("OK");
 			
+			//Modificar si es un null
 			
-			
+						
 		}
 	}
 }
