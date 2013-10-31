@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PSerpisAd/MyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PSerpisAd/TreeViewHelper.cs">
     <Files>
-      <File FileName="PSerpisAd/MyClass.cs" Line="1" Column="1" />
+      <File FileName="PSerpisAd/TreeViewHelper.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
