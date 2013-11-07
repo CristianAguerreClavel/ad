@@ -17,11 +17,10 @@ public partial class MainWindow
 		// Widget MainWindow
 		this.UIManager = new global::Gtk.UIManager ();
 		global::Gtk.ActionGroup w1 = new global::Gtk.ActionGroup ("Default");
-		this.editAction = new global::Gtk.Action ("editAction", global::Mono.Unix.Catalog.GetString ("_Editar"), null, "gtk-edit");
-		this.editAction.ShortLabel = global::Mono.Unix.Catalog.GetString ("_Editar");
+		this.editAction = new global::Gtk.Action ("editAction", global::Mono.Unix.Catalog.GetString ("Editar"), null, "gtk-edit");
+		this.editAction.ShortLabel = global::Mono.Unix.Catalog.GetString ("Editar");
 		w1.Add (this.editAction, null);
-		this.deleteAction = new global::Gtk.Action ("deleteAction", global::Mono.Unix.Catalog.GetString ("_Eliminar"), null, "gtk-delete");
-		this.deleteAction.ShortLabel = global::Mono.Unix.Catalog.GetString ("_Eliminar");
+		this.deleteAction = new global::Gtk.Action ("deleteAction", null, null, "gtk-delete");
 		w1.Add (this.deleteAction, null);
 		this.UIManager.InsertActionGroup (w1, 0);
 		this.AddAccelGroup (this.UIManager.AccelGroup);

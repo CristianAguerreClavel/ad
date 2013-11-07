@@ -5,10 +5,10 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{93016426-1BAB-400C-82D5-B358028A4E97}</ProjectGuid>
+    <ProjectGuid>{D0E90D38-147F-495D-8BA2-0DDC45D91177}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Serpis.Ad</RootNamespace>
-    <AssemblyName>PTreeView</AssemblyName>
+    <RootNamespace>PComboBox</RootNamespace>
+    <AssemblyName>PComboBox</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,8 +61,9 @@
       <Private>False</Private>
       <Package>mysql-connector-net</Package>
     </Reference>
+    <Reference Include="System.Data" />
     <Reference Include="PSerpisAd">
-      <HintPath>..\..\..\..\Repositorios\ad\PSerpisAd\PSerpisAd\bin\Debug\PSerpisAd.dll</HintPath>
+      <HintPath>..\..\PSerpisAd\PSerpisAd\bin\Debug\PSerpisAd.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

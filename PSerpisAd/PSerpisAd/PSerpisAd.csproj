@@ -35,10 +35,15 @@
       <Package>gtk-sharp-2.0</Package>
     </Reference>
     <Reference Include="System.Data" />
+    <Reference Include="MySql.Data, Version=6.4.3.0, Culture=neutral, PublicKeyToken=20449f9ba87f7ae2">
+      <Private>False</Private>
+      <Package>mysql-connector-net</Package>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="TreeViewHelper.cs" />
+    <Compile Include="ComboBoxHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
