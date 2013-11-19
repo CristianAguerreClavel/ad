@@ -1,0 +1,36 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="P2MyWidget/MyWidget.cs">
+    <Files>
+      <File FileName="P2MyWidget/MyWidget.cs" Line="20" Column="1" />
+      <File FileName="P2MyWidget/ArticuloListView.cs" Line="20" Column="48" />
+      <File FileName="P2MyWidget/CategoriaListView.cs" Line="17" Column="32" />
+      <File FileName="P2MyWidget/IEntityListVIew.cs" Line="5" Column="34" />
+      <File FileName="P2MyWidget/MainWindow.cs" Line="18" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="P2MyWidget" expanded="True">
+            <Node name="MyWidget.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True">
+          <Node name="P2MyWidget" expanded="True">
+            <Node name="Serpis" expanded="True">
+              <Node name="Ad" expanded="True">
+                <Node name="Serpis.Ad.MainClass" expanded="True" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
