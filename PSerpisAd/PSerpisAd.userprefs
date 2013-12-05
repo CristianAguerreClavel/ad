@@ -2,8 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PSerpisAd/ComboBoxHelper.cs">
     <Files>
-      <File FileName="PSerpisAd/TreeViewHelper.cs" Line="12" Column="89" />
-      <File FileName="PSerpisAd/ComboBoxHelper.cs" Line="4" Column="7" />
+      <File FileName="PSerpisAd/ComboBoxHelper.cs" Line="33" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

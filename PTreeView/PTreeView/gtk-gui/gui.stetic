@@ -6,7 +6,6 @@
   </configuration>
   <import>
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
-    <widget-library name="../../../../../Repositorios/ad/PSerpisAd/PSerpisAd/bin/Debug/PSerpisAd.dll" />
     <widget-library name="../bin/Debug/PTreeView.exe" internal="true" />
   </import>
   <widget class="Gtk.Window" id="MainWindow" design-size="400 300">

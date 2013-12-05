@@ -1,12 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PMyWidget/IEntityListView.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PMyWidget/MyWidget.cs">
     <Files>
       <File FileName="PMyWidget/MyWidget.cs" Line="15" Column="4" />
       <File FileName="PMyWidget/IEntityListView.cs" Line="13" Column="38" />
       <File FileName="PMyWidget/ArticuloListView.cs" Line="14" Column="55" />
       <File FileName="PMyWidget/CategoriaListView.cs" Line="19" Column="52" />
-      <File FileName="PMyWidget/MainWindow.cs" Line="16" Column="64" />
+      <File FileName="PMyWidget/MainWindow.cs" Line="16" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
